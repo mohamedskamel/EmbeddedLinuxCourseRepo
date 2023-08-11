@@ -6,7 +6,7 @@ added files:
 modified files:
 *
 
-file pathes:
+file paths:
 *
 
 Related Session:
