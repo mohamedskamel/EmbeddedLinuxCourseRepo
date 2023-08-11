@@ -1,34 +1,22 @@
 #########################################################################################################################
 #                                                                                        			                	#
-# File: LoginSystem.py                                                                       			                #
+# File: OccurrenceOfNum4InList.py                                                                       			    #
 # Author: Mohamed Samy Ahmed                                                                     			            #
 # Date: August 11, 2023                                                                   			                	#
 #                                                                                        			                	#
 # Description:                                                                           			                	#
-#    Program that can handle simple login system with predefined credentials.           			                	#
+#    This Program calculates the number of occurrences of number 4 in a given list by user     			                #
 #                                                                                        			                	#
 #########################################################################################################################
 #!/usr/bin/python3
 
-#making directory contains the predefined credentials
-data_base = {
-    "Ahmed":"1394",
-    "Ali":"6078",
-    "Amr":"9345"
-}
+#get the List from the user
+Input_list = input("Please enter your list separated by comma ")
 
-#get user info
-Username = input("Enter your Username :")
-Password = input("Enter your Password :")
+#convert the input into a list
+Input_list = Input_list.split(",")
+
+#print the counter
+print(Input_list.count('4'))
 
 
-if Username in data_base.keys():
-    
-    #check the password matches our database
-    if Password in data_base[Username]:
-        print("Welcome user")
-    else:
-        print("Invalid credentials")
-        
-else:
-    print("Invalid credentials")
