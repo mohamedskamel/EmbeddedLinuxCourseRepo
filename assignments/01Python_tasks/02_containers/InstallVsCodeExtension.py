@@ -1,6 +1,6 @@
 ##########################################################################################
 #                                                                                        #
-# File: example.py                                                                       #
+# File: installVsCodeExtensions.py                                                       #
 # Author: Mohamed Samy Ahmed                                                             #
 # Date: August 8, 2023                                                                   #
 #                                                                                        #
@@ -8,7 +8,14 @@
 #    Provide a brief description of the purpose and functionality of the Python file.    #
 #                                                                                        #
 ##########################################################################################
-#!/usr/bin/python3
 
+import pyautogui
+import time
+import subprocess
 
+subprocess.run(['C:\\Users\\win 10\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe'])
+time.sleep(4)
+pyautogui.shortcut('ctrl','shift','x')
+pyautogui.shortcut('ctrl','a')
+pyautogui.hotkey('backspace')
 
