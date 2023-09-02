@@ -1,7 +1,9 @@
 # EmbeddedLinuxCourseRepo
 This repository serves as a progress and task tracker for the [Embedded Linux] course. It aims to provide an organized and transparent overview of the course content, assignments, and individual progress.
+Course instructor Eng Moatassem El Sayed 
+instructor github : https://github.com/Moatasem-Elsayed
 
-The structure of the repository:
+The structure of the repository: 
 
 ├── assignments/         # Contains all course assignments
 
