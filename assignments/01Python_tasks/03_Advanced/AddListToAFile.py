@@ -8,8 +8,6 @@
 #    Provide a brief description of the purpose and functionality of the Python file.    #
 #                                                                                        #
 ##########################################################################################
-
-
 def write_list_to_file(file_path, input_list):
     try:
         with open(file_path, 'w') as file:
